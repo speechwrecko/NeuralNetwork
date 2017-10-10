@@ -38,6 +38,7 @@ def LoadAudioTrainingDataFromFile(file, validation_size, nmfcc):
 
     #initiliaze arrays
     mfcc_input = []
+    mag_input = []
     digit = []
     output = []
 
@@ -57,6 +58,7 @@ def LoadAudioTrainingDataFromFile(file, validation_size, nmfcc):
 
         spectrum = stft(y, hop_length=int(filesize / 2))
         mag, phase = magphase(spectrum)
+        mag_input.append(mag)
 
         mfcc = feature.mfcc(y, sr, n_mfcc=nmfcc, hop_length=int(filesize / 2))
         mfcc = mfcc[1:nmfcc]

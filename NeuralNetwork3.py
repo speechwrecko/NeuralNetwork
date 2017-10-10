@@ -171,7 +171,7 @@ class NeuralNetwork():
 
 
     def Feed_Forward(self, inputs):
-        self.l1_inputs[:,0:12] = inputs
+        self.l1_inputs[:,0:self.layer1.neurons-1] = inputs
         self.l2_hidden = self.layer2.activation(self, dot(self.l1_inputs, self.layer2.synaptic_weights))
         self.l3_output = self.layer3.activation(self, dot(self.l2_hidden, self.layer3.synaptic_weights))
         return  self.l3_output
