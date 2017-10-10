@@ -2,6 +2,8 @@ import numpy
 from numpy import array, dot, exp, random
 import math
 import audio
+import inspect
+import os
 
 numpy.seterr(all='ignore')
 
@@ -177,7 +179,10 @@ class NeuralNetwork():
 
 if __name__ == "__main__":
 
-    training_inputs, training_outputs, validation_inputs, validation_outputs = audio.LoadAudioTrainingDataFromFile('file_list.csv', 25, 13)
+    dirname = os.path.dirname(os.path.abspath(inspect.stack()[0][1]))
+    file_name = os.path.join(os.path.dirname(__file__), './recordings/file_list.csv')
+
+    training_inputs, training_outputs, validation_inputs, validation_outputs = audio.LoadAudioTrainingDataFromFile(file_name, 25, 13)
 
     #need to null activation layers
     input_layer = Layer(inputs=training_inputs.shape[0], neurons=training_inputs.shape[1] + 1, activation=NeuralNetwork.Tanh_Activation, activation_derivative=NeuralNetwork.Tanh_Activation_Deriv)

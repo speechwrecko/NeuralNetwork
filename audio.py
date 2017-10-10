@@ -1,12 +1,13 @@
 import sys
 from librosa import load, util, feature
 from librosa.core import stft, magphase
+import numpy
 from numpy import array, dot, exp, random
 from enum import Enum
 from sklearn import preprocessing
-import numpy
-from numpy import array, dot, exp, random
 import csv
+import inspect
+import os
 
 class numbers(Enum):
     zero = 0
@@ -47,8 +48,11 @@ def LoadAudioTrainingDataFromFile(file, validation_size, nmfcc):
         file_list = list(reader)
 
     #load in audio and file name data
+    dirname = os.path.dirname(os.path.abspath(inspect.stack()[0][1]))
     for files in file_list:
-        y, sr = load(files[0])
+        relative_path = 'recordings/' + files[0]
+        file_name = os.path.join(os.path.dirname(__file__), relative_path)
+        y, sr = load(file_name)
         filesize = sys.getsizeof(y)
 
         spectrum = stft(y, hop_length=int(filesize / 2))
