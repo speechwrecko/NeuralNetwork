@@ -26,6 +26,12 @@ class Layer():
     def Initialize_Synaptic_weights_Glorot(self):
         self.synaptic_weights= numpy.random.uniform(size=(self.inputs, self.neurons)) / numpy.sqrt(self.inputs)
 
+    def Initialize_Synaptic_weights_Glorot_tanh(self):
+            self.synaptic_weights = numpy.random.uniform(low=-(math.sqrt( 6 / (self.inputs + self.neurons))), high=math.sqrt( 6 / (self.inputs + self.neurons)), size=(self.inputs, self.neurons))
+
+    def Initialize_Synaptic_weights_Glorot_sigmoid(self):
+            self.synaptic_weights = numpy.random.uniform(low=-(4 * math.sqrt( 6 / (self.inputs + self.neurons))), high=4 * math.sqrt( 6 / (self.inputs + self.neurons)), size=(self.inputs, self.neurons))
+
 class NeuralNetwork():
     def __init__(self, layer1, layer2, layer3, learning_rate, learning_rate_decay, momentum):
         self.layer1 = layer1
@@ -111,12 +117,7 @@ class NeuralNetwork():
         return
 
     def Test(self, inputs, outputs):
-        """
-        Currently this will print out the targets next to the predictions.
-        Not useful for actual ML, just for visual inspection.
-        """
         for p, q in zip(inputs, outputs):
-            #print(q, '->', self.feedForward(p))
             o = self.Feed_Forward(p)
             print('ACTUAL:', numpy.array([q]).argmax(), '->', 'PREDICTED:', numpy.array([o]).argmax())
 
@@ -153,21 +154,9 @@ class NeuralNetwork():
         l2_hidden_error = output_deltas.dot(self.layer3.synaptic_weights.T)
         hidden_deltas = self.layer2.activation_derivative(self, self.l2_hidden) * l2_hidden_error
 
-        #for j in range(self.layer2.neurons):
-        #    for k in range(self.layer3.neurons):
-        #        adjustment = output_deltas[j][k] * self.l2_hidden.T[j][k]
-        #        self.layer3.synaptic_weights[j][k] -= self.learning_rate * adjustment+ self.l3_output_adjustment[j][k] * self.momentum
-        #        self.l3_output_adjustment[j][k] = adjustment
-
         adjustment1 = self.l2_hidden.T.dot(output_deltas)
         self.layer3.synaptic_weights = self.layer3.synaptic_weights - (adjustment1 * self.learning_rate) #+ self.l3_output_adjustment * self.momentum
         self.l3_output_adjustment = adjustment1
-
-        #for j in range(self.layer1.neurons):
-        #    for k in range(self.layer2.neurons):
-        #        adjustment = hidden_deltas[j][k] * self.l1_inputs.T[j][k]
-        #        self.layer2.synaptic_weights[j][k] -= self.learning_rate * adjustment + self.l2_hidden_adjustment[j][k] * self.momentum
-        #        self.l2_hidden_adjustment[j][k] = adjustment
 
         adjustment2 = self.l1_inputs.T.dot(hidden_deltas)
         self.layer2.synaptic_weights = self.layer2.synaptic_weights - (adjustment2 * self.learning_rate) #+ self.l2_hidden_adjustment * self.momentum
@@ -193,11 +182,11 @@ if __name__ == "__main__":
     #need to null activation layers
     input_layer = Layer(inputs=training_inputs.shape[0], neurons=training_inputs.shape[1] + 1, activation=NeuralNetwork.Tanh_Activation, activation_derivative=NeuralNetwork.Tanh_Activation_Deriv)
 
-    hidden_layer = Layer(inputs=training_inputs.shape[1] + 1, neurons=100, activation=NeuralNetwork.Tanh_Activation, activation_derivative=NeuralNetwork.Tanh_Activation_Deriv)
+    hidden_layer = Layer(inputs=training_inputs.shape[1] + 1, neurons=200, activation=NeuralNetwork.Tanh_Activation, activation_derivative=NeuralNetwork.Tanh_Activation_Deriv)
     hidden_layer.Initialize_Synaptic_Weights()
 
-    output_layer = Layer(inputs=100, neurons=training_outputs.shape[1], activation=NeuralNetwork.Sigmoid_Activation, activation_derivative=NeuralNetwork.Sigmoid_Activation_Derivative)
-    output_layer.Initialize_Synaptic_weights()
+    output_layer = Layer(inputs=200, neurons=training_outputs.shape[1], activation=NeuralNetwork.Sigmoid_Activation, activation_derivative=NeuralNetwork.Sigmoid_Activation_Derivative)
+    output_layer.Initialize_Synaptic_Weights()
 
     nnet = NeuralNetwork(layer1=input_layer, layer2=hidden_layer, layer3=output_layer, learning_rate=0.001, learning_rate_decay=0.0001, momentum=0.5)
 
