@@ -34,7 +34,7 @@ class digits:
     nine    = [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
 
 
-def LoadAudioTrainingDataFromFile(file, validation_size, nmfcc):
+def LoadAudioTrainingDataFromFile(csv_file_name, validation_size, nmfcc = None, nfft = None, output_type = None):
 
     #initiliaze arrays
     mfcc_input = []
@@ -44,7 +44,7 @@ def LoadAudioTrainingDataFromFile(file, validation_size, nmfcc):
 
     #read in CSV file with file names
     #????? Should probably require output as a seperate column instead of reading from file name
-    with open(file, 'r') as f:
+    with open(csv_file_name, 'r') as f:
         reader = csv.reader(f)
         file_list = list(reader)
 
