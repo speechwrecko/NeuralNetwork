@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2f4ecb9-ebf3-494b-8109-01dfdc573780" name="Default" comment="Upped hidden layer nodes to 200 buying more accuracy">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activationfunctions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NeuralNetwork3.py" afterPath="$PROJECT_DIR$/neuralnetwork.py" />
+    <list default="true" id="f2f4ecb9-ebf3-494b-8109-01dfdc573780" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audio.py" afterPath="$PROJECT_DIR$/audio.py" />
     </list>
@@ -18,11 +15,11 @@
   <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="audio.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="audio.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/audio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="903">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="592">
+              <caret line="55" column="8" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="40" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -30,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="neuralnetwork.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="neuralnetwork.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/neuralnetwork.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="56" column="62" lean-forward="false" selection-start-line="56" selection-start-column="62" selection-end-line="56" selection-end-column="62" />
+            <state relative-caret-position="388">
+              <caret line="98" column="128" lean-forward="false" selection-start-line="98" selection-start-column="128" selection-end-line="98" selection-end-column="128" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -45,8 +42,8 @@
       <file leaf-file-name="activationfunctions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/activationfunctions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="77" column="23" lean-forward="true" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+            <state relative-caret-position="1596">
+              <caret line="77" column="23" lean-forward="false" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -57,8 +54,8 @@
       <file leaf-file-name="layers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="72" lean-forward="true" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+            <state relative-caret-position="252">
+              <caret line="14" column="72" lean-forward="false" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -105,18 +102,18 @@
         <option value="$PROJECT_DIR$/NeuralNetwork2.py" />
         <option value="$PROJECT_DIR$/NeuralNetwork4.py" />
         <option value="$PROJECT_DIR$/NeuralNetwork5.py" />
-        <option value="$PROJECT_DIR$/audio.py" />
         <option value="$PROJECT_DIR$/NeuralNetwork3.py" />
         <option value="$PROJECT_DIR$/activationfunctions.py" />
         <option value="$PROJECT_DIR$/layers.py" />
+        <option value="$PROJECT_DIR$/audio.py" />
         <option value="$PROJECT_DIR$/neuralnetwork.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-194" />
-    <option name="width" value="3094" />
-    <option name="height" value="1454" />
+    <option name="x" value="-8" />
+    <option name="width" value="2570" />
+    <option name="height" value="1402" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -134,8 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,6 +142,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -381,24 +378,31 @@
       <option name="project" value="LOCAL" />
       <updated>1507651255965</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Refactored code.  Moved layers and activtion functions into seperate files.   Some other minor clean up">
+      <created>1507693395836</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1507693395836</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2578" height="1412" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19179687" sideWeight="0.16544789" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22890624" sideWeight="0.16544789" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3384" sideWeight="0.5042969" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34012538" sideWeight="0.5058594" order="2" side_tool="true" content_ui="tabs" x="921" y="487" width="898" height="192" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34012538" sideWeight="0.49414062" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3377743" sideWeight="0.5089844" order="2" side_tool="true" content_ui="tabs" x="921" y="487" width="898" height="192" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3377743" sideWeight="0.4910156" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3384" sideWeight="0.5042969" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08867188" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10117187" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -470,22 +474,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Upped hidden layer nodes to 200 buying more accuracy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upped hidden layer nodes to 200 buying more accuracy" />
+    <MESSAGE value="Refactored code.  Moved layers and activtion functions into seperate files.   Some other minor clean up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored code.  Moved layers and activtion functions into seperate files.   Some other minor clean up" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/audio.py</url>
-          <line>61</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/audio.py</url>
-          <line>53</line>
-          <option name="timeStamp" value="87" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -493,7 +486,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="88" />
+      <option name="time" value="89" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -503,6 +496,136 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="72" lean-forward="false" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neuralnetwork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2375">
+          <caret line="101" column="132" lean-forward="false" selection-start-line="101" selection-start-column="132" selection-end-line="101" selection-end-column="132" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activationfunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="77" column="23" lean-forward="true" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="72" lean-forward="true" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activationfunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="77" column="23" lean-forward="true" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="72" lean-forward="true" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neuralnetwork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="101" column="132" lean-forward="true" selection-start-line="101" selection-start-column="132" selection-end-line="101" selection-end-column="132" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neuralnetwork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="56" column="62" lean-forward="false" selection-start-line="56" selection-start-column="62" selection-end-line="56" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activationfunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="77" column="23" lean-forward="true" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="72" lean-forward="true" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/audio.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="903">
@@ -675,20 +798,10 @@
     <entry file="file://$PROJECT_DIR$/NeuralNetwork2.py" />
     <entry file="file://$PROJECT_DIR$/NeuralNetwork4.py" />
     <entry file="file://$PROJECT_DIR$/NeuralNetwork5.py" />
-    <entry file="file://$PROJECT_DIR$/audio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/activationfunctions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="77" column="23" lean-forward="true" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+        <state relative-caret-position="1596">
+          <caret line="77" column="23" lean-forward="false" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
@@ -697,8 +810,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="72" lean-forward="true" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+        <state relative-caret-position="252">
+          <caret line="14" column="72" lean-forward="false" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
@@ -707,10 +820,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/neuralnetwork.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="56" column="62" lean-forward="false" selection-start-line="56" selection-start-column="62" selection-end-line="56" selection-end-column="62" />
+        <state relative-caret-position="388">
+          <caret line="98" column="128" lean-forward="false" selection-start-line="98" selection-start-column="128" selection-end-line="98" selection-end-column="128" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="55" column="8" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

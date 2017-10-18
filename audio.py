@@ -53,7 +53,7 @@ def LoadAudioTrainingDataFromFile(csv_file_name, validation_size, nmfcc = None, 
     for files in file_list:
         relative_path = 'recordings/' + files[0]
         file_name = os.path.join(os.path.dirname(__file__), relative_path)
-        y, sr = load(file_name)
+        y, sr = load(file_name, sr=None)
         filesize = sys.getsizeof(y)
 
         spectrum = stft(y, hop_length=int(filesize / 2))
