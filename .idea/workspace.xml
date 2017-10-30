@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2f4ecb9-ebf3-494b-8109-01dfdc573780" name="Default" comment="">
+    <list default="true" id="f2f4ecb9-ebf3-494b-8109-01dfdc573780" name="Default" comment="MAde a bug fix to not use the default sample rate in librosa. Requires adding teh sr=None into load function&#10;&#10;y, sr = load(file_name, sr=None)">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activationfunctions.py" afterPath="$PROJECT_DIR$/activationfunctions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audio.py" afterPath="$PROJECT_DIR$/audio.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/neuralnetwork.py" afterPath="$PROJECT_DIR$/neuralnetwork.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +17,11 @@
   <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="audio.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="audio.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/audio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="54" column="74" lean-forward="true" selection-start-line="54" selection-start-column="74" selection-end-line="54" selection-end-column="74" />
+            <state relative-caret-position="86">
+              <caret line="98" column="64" lean-forward="false" selection-start-line="98" selection-start-column="64" selection-end-line="98" selection-end-column="64" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -29,8 +32,8 @@
       <file leaf-file-name="neuralnetwork.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/neuralnetwork.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="98" column="128" lean-forward="false" selection-start-line="98" selection-start-column="128" selection-end-line="98" selection-end-column="128" />
+            <state relative-caret-position="675">
+              <caret line="112" column="52" lean-forward="false" selection-start-line="112" selection-start-column="52" selection-end-line="112" selection-end-column="52" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -41,8 +44,8 @@
       <file leaf-file-name="activationfunctions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/activationfunctions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1596">
-              <caret line="77" column="23" lean-forward="false" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+            <state relative-caret-position="686">
+              <caret line="96" column="14" lean-forward="false" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -50,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layers.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="layers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/layers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="294">
               <caret line="14" column="72" lean-forward="false" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
@@ -102,17 +105,18 @@
         <option value="$PROJECT_DIR$/NeuralNetwork4.py" />
         <option value="$PROJECT_DIR$/NeuralNetwork5.py" />
         <option value="$PROJECT_DIR$/NeuralNetwork3.py" />
-        <option value="$PROJECT_DIR$/activationfunctions.py" />
         <option value="$PROJECT_DIR$/layers.py" />
+        <option value="$PROJECT_DIR$/activationfunctions.py" />
         <option value="$PROJECT_DIR$/audio.py" />
         <option value="$PROJECT_DIR$/neuralnetwork.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="2570" />
-    <option name="height" value="1402" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1289" />
+    <option name="height" value="699" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -130,6 +134,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,7 +147,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -391,24 +395,31 @@
       <option name="project" value="LOCAL" />
       <updated>1508353676671</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="MAde a bug fix to not use the default sample rate in librosa. Requires adding teh sr=None into load function&#10;&#10;y, sr = load(file_name, sr=None)">
+      <created>1508353976879</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1508353976879</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="2578" height="1412" extended-state="6" />
+    <frame x="-11" y="-11" width="2582" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22890624" sideWeight="0.16544789" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3384" sideWeight="0.5042969" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3377743" sideWeight="0.5089844" order="2" side_tool="true" content_ui="tabs" x="921" y="487" width="898" height="192" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3377743" sideWeight="0.4910156" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.336" sideWeight="0.5136719" order="2" side_tool="true" content_ui="tabs" x="921" y="487" width="898" height="192" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.336" sideWeight="0.48632812" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3384" sideWeight="0.5042969" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.336" sideWeight="0.5136719" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10117187" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10039063" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -482,10 +493,18 @@
     <MESSAGE value="Upped hidden layer nodes to 200 buying more accuracy" />
     <MESSAGE value="Refactored code.  Moved layers and activtion functions into seperate files.   Some other minor clean up" />
     <MESSAGE value="MAde a bug fix to not use the default sample rate in librosa" />
-    <option name="LAST_COMMIT_MESSAGE" value="MAde a bug fix to not use the default sample rate in librosa" />
+    <MESSAGE value="MAde a bug fix to not use the default sample rate in librosa. Requires adding teh sr=None into load function&#10;&#10;y, sr = load(file_name, sr=None)" />
+    <option name="LAST_COMMIT_MESSAGE" value="MAde a bug fix to not use the default sample rate in librosa. Requires adding teh sr=None into load function&#10;&#10;y, sr = load(file_name, sr=None)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/neuralnetwork.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -493,7 +512,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="89" />
+      <option name="time" value="90" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -805,20 +824,20 @@
     <entry file="file://$PROJECT_DIR$/NeuralNetwork2.py" />
     <entry file="file://$PROJECT_DIR$/NeuralNetwork4.py" />
     <entry file="file://$PROJECT_DIR$/NeuralNetwork5.py" />
-    <entry file="file://$PROJECT_DIR$/activationfunctions.py">
+    <entry file="file://$PROJECT_DIR$/audio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="77" column="23" lean-forward="false" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+        <state relative-caret-position="86">
+          <caret line="98" column="64" lean-forward="false" selection-start-line="98" selection-start-column="64" selection-end-line="98" selection-end-column="64" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layers.py">
+    <entry file="file://$PROJECT_DIR$/activationfunctions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="72" lean-forward="false" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+        <state relative-caret-position="686">
+          <caret line="96" column="14" lean-forward="false" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
@@ -827,20 +846,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/neuralnetwork.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="98" column="128" lean-forward="false" selection-start-line="98" selection-start-column="128" selection-end-line="98" selection-end-column="128" />
+        <state relative-caret-position="675">
+          <caret line="112" column="52" lean-forward="false" selection-start-line="112" selection-start-column="52" selection-end-line="112" selection-end-column="52" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/audio.py">
+    <entry file="file://$PROJECT_DIR$/layers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="54" column="74" lean-forward="true" selection-start-line="54" selection-start-column="74" selection-end-line="54" selection-end-column="74" />
+        <state relative-caret-position="294">
+          <caret line="14" column="72" lean-forward="false" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>

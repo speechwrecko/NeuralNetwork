@@ -92,11 +92,11 @@ def LoadAudioTrainingDataFromFile(csv_file_name, validation_size, nmfcc = None, 
     #normalize data to between 0 and 1
     training_input = numpy.asarray(mfcc_input, dtype=numpy.float64)
     training_input = numpy.squeeze(training_input)
-    min_max_scaler = preprocessing.MinMaxScaler(feature_range=(0, 1))
+    min_max_scaler = preprocessing.MinMaxScaler(feature_range=(-1, 1))
     training_input = min_max_scaler.fit_transform(training_input)
 
     training_output = numpy.asarray(output, dtype=numpy.float64)
-    min_max_scaler = preprocessing.MinMaxScaler(feature_range=(0, 1))
+    min_max_scaler = preprocessing.MinMaxScaler(feature_range=(0, 6))
     training_output = min_max_scaler.fit_transform(training_output)
 
     #randommize before dividing test/train sets:

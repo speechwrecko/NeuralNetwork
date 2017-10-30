@@ -57,6 +57,8 @@ class NeuralNetwork():
             output_deltas = self.layer3.activation_derivative(self.l3_output) * l3_output_error
         elif self.layer3.activation_derivative == activationfunctions.softmax_derivative:
             output_deltas = l3_output_error
+        elif self.layer3.activation_derivative == activationfunctions.Oland_Et_Al_Derivative:
+            output_deltas = self.layer3.activation_derivative(self.l3_output) - outputs
 
         hidden_deltas = numpy.zeros((self.layer1.inputs, self.layer2.neurons))
         l2_hidden_error = output_deltas.dot(self.layer3.synaptic_weights.T)
@@ -72,7 +74,12 @@ class NeuralNetwork():
 
         # calculate error
         error = 0.0
-        error = numpy.sum(0.5 * (outputs - self.l3_output) ** 2, axis=0)
+        if self.layer3.activation_derivative == activationfunctions.Sigmoid_Activation_Derivative:
+            error = numpy.sum(0.5 * (outputs - self.l3_output) ** 2, axis=0)
+        elif self.layer3.activation_derivative == activationfunctions.softmax_derivative:
+            error = -(numpy.sum(outputs * numpy.log(self.l3_output), axis=0))
+        elif self.layer3.activation_derivative == activationfunctions.Oland_Et_Al_Derivative:
+            error = numpy.sum(0.5 * (outputs - self.l3_output) ** 2, axis=0)
         return error
 
 
@@ -93,15 +100,17 @@ if __name__ == "__main__":
     #need to null activation layers
     input_layer = layers.Layer(inputs=training_inputs.shape[0], neurons=training_inputs.shape[1] + 1)
 
-    hidden_layer = layers.Layer(inputs=training_inputs.shape[1] + 1, neurons=200, activation=activationfunctions.Tanh_Activation, activation_derivative=activationfunctions.Tanh_Activation_Deriv)
-    hidden_layer.Initialize_Synaptic_Weights()
+    hidden_layer = layers.Layer(inputs=training_inputs.shape[1] + 1, neurons=200, activation=activationfunctions.Leaky_ReLu_Activation,
+                                activation_derivative=activationfunctions.Leaky_ReLu_Activation_Derivative)
+    hidden_layer.Initialize_Synaptic_weights_Glorot_sigmoid()
 
-    output_layer = layers.Layer(inputs=200, neurons=training_outputs.shape[1], activation=activationfunctions.Sigmoid_Activation, activation_derivative=activationfunctions.Sigmoid_Activation_Derivative)
-    output_layer.Initialize_Synaptic_Weights()
+    output_layer = layers.Layer(inputs=200, neurons=training_outputs.shape[1], activation=activationfunctions.Oland_Et_Al,
+                                activation_derivative=activationfunctions.Oland_Et_Al_Derivative)
+    output_layer.Initialize_Synaptic_weights_Glorot_sigmoid()
 
-    nnet = NeuralNetwork(layer1=input_layer, layer2=hidden_layer, layer3=output_layer, learning_rate=0.001, learning_rate_decay=0.0001, momentum=0.5)
+    nnet = NeuralNetwork(layer1=input_layer, layer2=hidden_layer, layer3=output_layer, learning_rate=0.00001, learning_rate_decay=0.000001, momentum=0.5)
 
-    nnet.Train(training_inputs, training_outputs, 25000)
+    nnet.Train(training_inputs, training_outputs, 5500)
 
     print("TRAINING VALIDATION:")
     nnet.Test(training_inputs, training_outputs)
