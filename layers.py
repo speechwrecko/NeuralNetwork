@@ -37,3 +37,7 @@ class Layer():
         self.synaptic_weights = numpy.random.randn(self.inputs, self.neurons).astype(numpy.float64) * \
                                 numpy.sqrt(2.0 / (self.inputs))
 
+    def Initialize_Synaptic_weights_He_Relu2(self):
+        self.synaptic_weights = numpy.random.normal(loc=0, scale=numpy.sqrt(2.0 / (self.inputs)),
+                                                    size=(self.inputs, self.neurons) )
+
