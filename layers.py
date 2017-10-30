@@ -24,7 +24,16 @@ class Layer():
         self.synaptic_weights= numpy.random.uniform(size=(self.inputs, self.neurons)) / numpy.sqrt(self.inputs)
 
     def Initialize_Synaptic_weights_Glorot_tanh(self):
-            self.synaptic_weights = numpy.random.uniform(low=-(math.sqrt( 6 / (self.inputs + self.neurons))), high=math.sqrt( 6 / (self.inputs + self.neurons)), size=(self.inputs, self.neurons))
+        self.synaptic_weights = numpy.random.uniform(low=-(math.sqrt( 6 / (self.inputs + self.neurons))),
+                                                     high=math.sqrt( 6 / (self.inputs + self.neurons)),
+                                                     size=(self.inputs, self.neurons))
 
     def Initialize_Synaptic_weights_Glorot_sigmoid(self):
-            self.synaptic_weights = numpy.random.uniform(low=-(4 * math.sqrt( 6 / (self.inputs + self.neurons))), high=4 * math.sqrt( 6 / (self.inputs + self.neurons)), size=(self.inputs, self.neurons))
+        self.synaptic_weights = numpy.random.uniform(low=-(4 * math.sqrt( 6 / (self.inputs + self.neurons))),
+                                                     high=4 * math.sqrt( 6 / (self.inputs + self.neurons)),
+                                                     size=(self.inputs, self.neurons))
+
+    def Initialize_Synaptic_weights_He_Relu(self):
+        self.synaptic_weights = numpy.random.randn(self.inputs, self.neurons).astype(numpy.float64) * \
+                                numpy.sqrt(2.0 / (self.inputs))
+

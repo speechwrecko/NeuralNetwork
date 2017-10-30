@@ -102,15 +102,15 @@ if __name__ == "__main__":
 
     hidden_layer = layers.Layer(inputs=training_inputs.shape[1] + 1, neurons=200, activation=activationfunctions.Leaky_ReLu_Activation,
                                 activation_derivative=activationfunctions.Leaky_ReLu_Activation_Derivative)
-    hidden_layer.Initialize_Synaptic_weights_Glorot_sigmoid()
+    hidden_layer.Initialize_Synaptic_weights_He_Relu()
 
     output_layer = layers.Layer(inputs=200, neurons=training_outputs.shape[1], activation=activationfunctions.Oland_Et_Al,
                                 activation_derivative=activationfunctions.Oland_Et_Al_Derivative)
-    output_layer.Initialize_Synaptic_weights_Glorot_sigmoid()
+    output_layer.Initialize_Synaptic_weights_He_Relu()
 
     nnet = NeuralNetwork(layer1=input_layer, layer2=hidden_layer, layer3=output_layer, learning_rate=0.00001, learning_rate_decay=0.000001, momentum=0.5)
 
-    nnet.Train(training_inputs, training_outputs, 5500)
+    nnet.Train(training_inputs, training_outputs, 6000)
 
     print("TRAINING VALIDATION:")
     nnet.Test(training_inputs, training_outputs)
