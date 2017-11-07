@@ -1,509 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2f4ecb9-ebf3-494b-8109-01dfdc573780" name="Default" comment="Adding He initialization">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_0.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_1.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_10.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_11.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_12.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_13.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_14.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_15.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_16.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_17.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_18.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_19.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_2.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_20.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_21.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_22.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_23.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_24.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_25.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_26.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_27.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_28.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_29.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_3.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_30.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_31.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_32.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_33.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_34.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_35.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_36.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_37.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_38.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_39.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_4.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_40.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_41.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_42.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_43.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_44.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_45.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_46.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_47.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_48.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_49.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_5.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_6.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_7.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_8.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/0_jason_9.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_0.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_1.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_10.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_11.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_12.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_13.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_14.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_15.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_16.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_17.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_18.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_19.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_2.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_20.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_21.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_22.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_23.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_24.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_25.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_26.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_27.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_28.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_29.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_3.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_30.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_31.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_32.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_33.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_34.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_35.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_36.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_37.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_38.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_39.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_4.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_40.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_41.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_42.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_43.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_44.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_45.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_46.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_47.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_48.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_49.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_5.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_6.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_7.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_8.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/1_jason_9.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_0.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_1.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_10.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_11.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_12.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_13.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_14.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_15.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_16.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_17.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_18.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_19.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_2.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_20.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_21.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_22.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_23.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_24.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_25.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_26.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_27.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_28.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_29.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_3.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_30.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_31.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_32.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_33.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_34.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_35.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_36.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_37.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_38.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_39.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_4.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_40.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_41.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_42.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_43.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_44.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_45.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_46.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_47.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_48.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_49.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_5.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_6.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_7.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_8.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/2_jason_9.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_0.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_1.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_10.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_11.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_12.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_13.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_14.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_15.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_16.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_17.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_18.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_19.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_2.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_20.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_21.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_22.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_23.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_24.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_25.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_26.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_27.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_28.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_29.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_3.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_30.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_31.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_32.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_33.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_34.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_35.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_36.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_37.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_38.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_39.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_4.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_40.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_41.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_42.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_43.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_44.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_45.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_46.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_47.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_48.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_49.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_5.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_6.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_7.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_8.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/3_jason_9.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_0.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_1.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_10.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_11.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_12.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_13.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_14.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_15.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_16.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_17.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_18.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_19.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_2.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_20.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_21.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_22.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_23.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_24.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_25.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_26.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_27.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_28.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_29.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_3.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_30.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_31.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_32.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_33.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_34.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_35.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_36.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_37.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_38.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_39.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_4.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_40.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_41.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_42.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_43.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_44.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_45.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_46.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_47.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_48.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_49.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_5.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_6.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_7.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_8.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/4_jason_9.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_0.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_1.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_10.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_11.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_12.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_13.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_14.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_15.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_16.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_17.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_18.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_19.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_2.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_20.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_21.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_22.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_23.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_24.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_25.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_26.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_27.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_28.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_29.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_3.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_30.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_31.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_32.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_33.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_34.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_35.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_36.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_37.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_38.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_39.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_4.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_40.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_41.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_42.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_43.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_44.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_45.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_46.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_47.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_48.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_49.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_5.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_6.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_7.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_8.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/5_jason_9.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_0.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_1.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_10.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_11.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_12.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_13.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_14.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_15.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_16.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_17.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_18.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_19.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_2.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_20.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_21.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_22.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_23.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_24.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_25.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_26.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_27.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_28.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_29.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_3.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_30.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_31.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_32.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_33.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_34.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_35.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_36.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_37.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_38.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_39.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_4.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_40.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_41.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_42.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_43.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_44.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_45.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_46.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_47.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_48.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_49.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_5.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_6.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_7.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_8.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/6_jason_9.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_0.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_1.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_10.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_11.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_12.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_13.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_14.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_15.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_16.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_17.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_18.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_19.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_2.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_20.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_21.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_22.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_23.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_24.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_25.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_26.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_27.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_28.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_29.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_3.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_30.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_31.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_32.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_33.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_34.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_35.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_36.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_37.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_38.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_39.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_4.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_40.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_41.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_42.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_43.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_44.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_45.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_46.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_47.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_48.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_49.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_5.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_6.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_7.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_8.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/7_jason_9.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_0.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_1.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_10.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_11.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_12.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_13.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_14.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_15.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_16.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_17.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_18.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_19.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_2.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_20.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_21.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_22.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_23.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_24.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_25.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_26.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_27.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_28.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_29.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_3.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_30.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_31.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_32.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_33.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_34.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_35.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_36.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_37.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_38.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_39.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_4.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_40.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_41.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_42.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_43.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_44.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_45.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_46.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_47.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_48.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_49.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_5.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_6.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_7.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_8.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/8_jason_9.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_0.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_1.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_10.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_11.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_12.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_13.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_14.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_15.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_16.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_17.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_18.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_19.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_2.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_20.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_21.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_22.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_23.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_24.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_25.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_26.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_27.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_28.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_29.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_3.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_30.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_31.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_32.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_33.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_34.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_35.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_36.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_37.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_38.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_39.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_4.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_40.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_41.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_42.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_43.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_44.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_45.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_46.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_47.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_48.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_49.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_5.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_6.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_7.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_8.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recordings/9_jason_9.wav" />
+    <list default="true" id="f2f4ecb9-ebf3-494b-8109-01dfdc573780" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layers.py" afterPath="$PROJECT_DIR$/layers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audio.py" afterPath="$PROJECT_DIR$/audio.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/neuralnetwork.py" afterPath="$PROJECT_DIR$/neuralnetwork.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -516,11 +16,11 @@
   <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="audio.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="audio.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/audio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2058">
-              <caret line="98" column="64" lean-forward="false" selection-start-line="98" selection-start-column="64" selection-end-line="98" selection-end-column="64" />
+            <state relative-caret-position="35">
+              <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -528,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="neuralnetwork.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="neuralnetwork.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/neuralnetwork.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="108" column="61" lean-forward="false" selection-start-line="108" selection-start-column="61" selection-end-line="108" selection-end-column="61" />
+            <state relative-caret-position="-1759">
+              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -543,8 +43,8 @@
       <file leaf-file-name="activationfunctions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/activationfunctions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1995">
-              <caret line="96" column="14" lean-forward="false" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
+            <state relative-caret-position="535">
+              <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -555,7 +55,7 @@
       <file leaf-file-name="layers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
+            <state relative-caret-position="548">
               <caret line="40" column="51" lean-forward="false" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
@@ -604,18 +104,19 @@
         <option value="$PROJECT_DIR$/NeuralNetwork4.py" />
         <option value="$PROJECT_DIR$/NeuralNetwork5.py" />
         <option value="$PROJECT_DIR$/NeuralNetwork3.py" />
-        <option value="$PROJECT_DIR$/activationfunctions.py" />
-        <option value="$PROJECT_DIR$/audio.py" />
         <option value="$PROJECT_DIR$/layers.py" />
+        <option value="C:/free-spoken-digit-dataset/metadata.py" />
+        <option value="$PROJECT_DIR$/activationfunctions.py" />
         <option value="$PROJECT_DIR$/neuralnetwork.py" />
+        <option value="$PROJECT_DIR$/audio.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2890" />
-    <option name="y" value="315" />
-    <option name="width" value="1289" />
-    <option name="height" value="699" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="2578" />
+    <option name="height" value="1412" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -644,8 +145,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -915,23 +416,30 @@
       <option name="project" value="LOCAL" />
       <updated>1509391515452</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Reverting to Glorot Sigmoid init as it works better&#10;&#10;Also added 500 additional digit recordings from me">
+      <created>1509406041827</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1509406041827</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2551" y="-9" width="2578" height="1458" extended-state="6" />
+    <frame x="-11" y="-11" width="2582" height="1416" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22890624" sideWeight="0.16544789" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22851562" sideWeight="0.16544789" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3384" sideWeight="0.5042969" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3260212" sideWeight="0.5167969" order="2" side_tool="true" content_ui="tabs" x="921" y="487" width="898" height="192" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3260212" sideWeight="0.4832031" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3368" sideWeight="0.51835936" order="2" side_tool="true" content_ui="tabs" x="921" y="487" width="898" height="192" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3368" sideWeight="0.48164064" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.336" sideWeight="0.5136719" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10039063" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1008,14 +516,15 @@
     <MESSAGE value="MAde a bug fix to not use the default sample rate in librosa. Requires adding teh sr=None into load function&#10;&#10;y, sr = load(file_name, sr=None)" />
     <MESSAGE value="Added new activation function for forward and pack prop based on https://arxiv.org/pdf/1707.04199.pdf&#10;Switched hidden layer to RELU&#10;Dropped number of Epochs from 25,000 to 5500&#10;Switched to a Xaviar initialization of weights" />
     <MESSAGE value="Adding He initialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding He initialization" />
+    <MESSAGE value="Reverting to Glorot Sigmoid init as it works better&#10;&#10;Also added 500 additional digit recordings from me" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverting to Glorot Sigmoid init as it works better&#10;&#10;Also added 500 additional digit recordings from me" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/neuralnetwork.py</url>
-          <line>60</line>
+          <line>62</line>
           <option name="timeStamp" value="89" />
         </line-breakpoint>
       </breakpoints>
@@ -1036,16 +545,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/audio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/neuralnetwork.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2375">
@@ -1328,26 +827,6 @@
     <entry file="file://$PROJECT_DIR$/NeuralNetwork2.py" />
     <entry file="file://$PROJECT_DIR$/NeuralNetwork4.py" />
     <entry file="file://$PROJECT_DIR$/NeuralNetwork5.py" />
-    <entry file="file://$PROJECT_DIR$/activationfunctions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1995">
-          <caret line="96" column="14" lean-forward="false" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="40" column="51" lean-forward="false" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/free-spoken-digit-dataset-master/free-spoken-digit-dataset-master/acquire_data/say_numbers_prompt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1355,22 +834,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/audio.py">
+    <entry file="file://C:/free-spoken-digit-dataset/metadata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2058">
-          <caret line="98" column="64" lean-forward="false" selection-start-line="98" selection-start-column="64" selection-end-line="98" selection-end-column="64" />
+        <state relative-caret-position="378">
+          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="40" column="51" lean-forward="false" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activationfunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/neuralnetwork.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="108" column="61" lean-forward="false" selection-start-line="108" selection-start-column="61" selection-end-line="108" selection-end-column="61" />
+        <state relative-caret-position="-1759">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

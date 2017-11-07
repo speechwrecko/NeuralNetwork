@@ -56,9 +56,10 @@ def LoadAudioTrainingDataFromFile(csv_file_name, validation_size, nmfcc = None, 
         y, sr = load(file_name, sr=None)
         filesize = sys.getsizeof(y)
 
-        spectrum = stft(y, hop_length=int(filesize / 2))
-        mag, phase = magphase(spectrum)
-        mag_input.append(mag)
+        if output_type == 'spectrum':
+            spectrum = stft(y, nfft, hop_length=int(filesize / 2))
+            mag, phase = magphase(spectrum)
+            mag_input.append(mag)
 
         mfcc = feature.mfcc(y, sr, n_mfcc=nmfcc, hop_length=int(filesize / 2))
         mfcc = mfcc[1:nmfcc]
@@ -90,10 +91,17 @@ def LoadAudioTrainingDataFromFile(csv_file_name, validation_size, nmfcc = None, 
             output.append(digits.nine)
 
     #normalize data to between 0 and 1
-    training_input = numpy.asarray(mfcc_input, dtype=numpy.float64)
-    training_input = numpy.squeeze(training_input)
-    min_max_scaler = preprocessing.MinMaxScaler(feature_range=(-1, 1))
-    training_input = min_max_scaler.fit_transform(training_input)
+    if output_type == 'mfcc':
+        training_input = numpy.asarray(mfcc_input, dtype=numpy.float64)
+        training_input = numpy.squeeze(training_input)
+        min_max_scaler = preprocessing.MinMaxScaler(feature_range=(-1, 1))
+        training_input = min_max_scaler.fit_transform(training_input)
+
+    elif output_type == 'spectrum':
+        training_input = numpy.asarray(mag_input, dtype=numpy.float64)
+        training_input = numpy.squeeze(training_input)
+        min_max_scaler = preprocessing.MinMaxScaler(feature_range=(0, 1))
+        training_input = min_max_scaler.fit_transform(training_input)
 
     training_output = numpy.asarray(output, dtype=numpy.float64)
     min_max_scaler = preprocessing.MinMaxScaler(feature_range=(0, 6))

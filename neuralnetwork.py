@@ -7,6 +7,8 @@ import inspect
 import os
 
 numpy.seterr(all='ignore')
+#mode = 'E2E'
+mode = 'FEATURE'
 
 class NeuralNetwork():
     def __init__(self, layer1, layer2, layer3, learning_rate, learning_rate_decay, momentum):
@@ -95,20 +97,46 @@ if __name__ == "__main__":
     dirname = os.path.dirname(os.path.abspath(inspect.stack()[0][1]))
     file_name = os.path.join(os.path.dirname(__file__), './recordings/file_list.csv')
 
-    training_inputs, training_outputs, validation_inputs, validation_outputs = audio.LoadAudioTrainingDataFromFile(csv_file_name=file_name, validation_size=25, nmfcc=13)
+    if mode == 'E2E':
+        training_inputs, training_outputs, validation_inputs, validation_outputs = audio.LoadAudioTrainingDataFromFile(
+            csv_file_name=file_name, validation_size=25, nmfcc=13, nfft=4096, output_type='spectrum')
+
+    elif mode == 'FEATURE':
+        training_inputs, training_outputs, validation_inputs, validation_outputs = audio.LoadAudioTrainingDataFromFile(
+            csv_file_name=file_name, validation_size=25, nmfcc=13, output_type='mfcc')
 
     #need to null activation layers
     input_layer = layers.Layer(inputs=training_inputs.shape[0], neurons=training_inputs.shape[1] + 1)
 
-    hidden_layer = layers.Layer(inputs=training_inputs.shape[1] + 1, neurons=200, activation=activationfunctions.Leaky_ReLu_Activation,
-                                activation_derivative=activationfunctions.Leaky_ReLu_Activation_Derivative)
-    hidden_layer.Initialize_Synaptic_weights_Glorot_sigmoid()
+    if mode == 'E2E':
+        hidden_layer = layers.Layer(inputs=training_inputs.shape[1] + 1, neurons=2048,
+                                    activation=activationfunctions.Tanh_Activation,
+                                    activation_derivative=activationfunctions.Tanh_Activation_Deriv)
+        hidden_layer.Initialize_Synaptic_Weights()
 
-    output_layer = layers.Layer(inputs=200, neurons=training_outputs.shape[1], activation=activationfunctions.Oland_Et_Al,
-                                activation_derivative=activationfunctions.Oland_Et_Al_Derivative)
-    output_layer.Initialize_Synaptic_weights_Glorot_sigmoid()
+        output_layer = layers.Layer(inputs=2048, neurons=training_outputs.shape[1],
+                                    activation=activationfunctions.Sigmoid_Activation,
+                                    activation_derivative=activationfunctions.Sigmoid_Activation_Derivative)
+        output_layer.Initialize_Synaptic_Weights()
 
-    nnet = NeuralNetwork(layer1=input_layer, layer2=hidden_layer, layer3=output_layer, learning_rate=0.00001, learning_rate_decay=0.000001, momentum=0.5)
+    elif mode == 'FEATURE':
+        hidden_layer = layers.Layer(inputs=training_inputs.shape[1] + 1, neurons=200,
+                                    activation=activationfunctions.Leaky_ReLu_Activation,
+                                    activation_derivative=activationfunctions.Leaky_ReLu_Activation_Derivative)
+        hidden_layer.Initialize_Synaptic_weights_Glorot_sigmoid()
+
+        output_layer = layers.Layer(inputs=200, neurons=training_outputs.shape[1],
+                                    activation=activationfunctions.Oland_Et_Al,
+                                    activation_derivative=activationfunctions.Oland_Et_Al_Derivative)
+        output_layer.Initialize_Synaptic_weights_Glorot_sigmoid()
+
+    if mode == 'E2E':
+        nnet = NeuralNetwork(layer1=input_layer, layer2=hidden_layer, layer3=output_layer, learning_rate=0.001,
+                             learning_rate_decay=0.0001, momentum=0.5)
+
+    elif mode == 'FEATURE':
+        nnet = NeuralNetwork(layer1=input_layer, layer2=hidden_layer, layer3=output_layer, learning_rate=0.00001,
+                             learning_rate_decay=0.000001, momentum=0.5)
 
     nnet.Train(training_inputs, training_outputs, 6000)
 
